@@ -29,8 +29,8 @@
                         <td>
                             <a href="{{ url('/comments/' . $comment->id) }}" title="View Comments"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
                             
-                            @if ()
-                                
+                            @if (auth()->user()->role == 1)
+                            <a href="{{ url('/comments/' . $comment->id . '/edit') }}" title="Edit Student"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
                             @endif
                             
                         </td>
