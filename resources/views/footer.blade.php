@@ -62,6 +62,7 @@
                 <div class="footer-body">
                     <p><i class="fas fa-mobile-alt"></i> +94 711758851</p>
                     <p><i class="fa fa-send"></i> jehankandy@gmail.com</p>
+                    <p><i class="fab fa-github-alt"></i> <a href="" target="_blank" style="color:white;">github.com/JehanKandy</a></p>
                 </div>
             </div>
         </div>
