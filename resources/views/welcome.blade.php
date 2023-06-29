@@ -36,7 +36,7 @@
     .sec-content{
         padding: 50px 0;
     }
-    .comment-title ..news-title{
+    .comment-title .news-title{
         text-align: center;
         font-size: 25px;
     }
