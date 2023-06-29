@@ -62,7 +62,15 @@ class CommentController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $comments = new Comment([
+            "add_user" =>$request->add_user,
+            "comment" =>$request->comment,
+        ]);
+
+        $comments->save();
+
+
+        return redirect("/comments");
     }
 
     /**
