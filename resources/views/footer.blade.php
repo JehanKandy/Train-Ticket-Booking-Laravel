@@ -34,7 +34,7 @@
 <footer>
     <div class="container">
         <h3>Train Ticket Booking</h3>
-        <hr>
+        
         <div class="row">
             <div class="col-lg-4 footer-text">
                 <div class="footer-title">
@@ -66,5 +66,7 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <p class="copy"><i class="fas fa-copyright"></i>JehanKandy 2021 - 2023</p>
     </div>
 </footer>
