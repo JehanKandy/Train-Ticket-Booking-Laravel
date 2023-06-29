@@ -10,8 +10,12 @@
             @csrf
             <div class="form-group">
                 <label for="add_user">Owner</label>
-                <input type="text" class="form-control" value="@php Auth::user->name @endphp" disabled>
-                <input type="hidden" name="add_user" value="@php Auth::user->name @endphp">
+                <input type="text" value=" @php echo Auth::user()->name; @endphp" class="form-control" disabled><br>
+                <input type="hidden" name="add_user" value=" @php echo Auth::user()->name; @endphp"> 
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
             </div>
         </form>
     </div>
