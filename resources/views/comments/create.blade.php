@@ -10,7 +10,8 @@
             @csrf
             <div class="form-group">
                 <label for="add_user">Owner</label>
-                <input type="text" name="add_user" class="form-control" value="@php Auth::user->name @endphp" disabled>
+                <input type="text" class="form-control" value="@php Auth::user->name @endphp" disabled>
+                <input type="hidden" name="add_user" value="@php Auth::user->name @endphp">
             </div>
         </form>
     </div>
