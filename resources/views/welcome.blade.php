@@ -34,7 +34,7 @@
             @endif            
         </div> --}}
 
-<div class="home-content">
+<div class="home-content all-images">
     <div class="container">
         Book here And Travel AnyWhere
     </div>
