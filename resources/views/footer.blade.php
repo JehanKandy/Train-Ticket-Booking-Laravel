@@ -34,6 +34,12 @@
                 <div class="footer-title">
                     Useful Links
                 </div>
+                <div class="footer-body">
+                    <ul>
+                        <li><a href="">Train Routes</a></li>
+                        <li><a href="">Train Timetable</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-lg-4 footer-text">
                 <div class="footer-title">
