@@ -6,7 +6,7 @@
         <h3>Add New Comment</h3>
         <hr>
         <br>
-        <form action="{{ url('/comments') }}" method="POST">
+        <form action="{{ url('comments') }}" method="POST">
             @csrf
             <div class="form-group">
                 <label for="add_user">Owner</label>
