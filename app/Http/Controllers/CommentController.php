@@ -44,7 +44,7 @@ class CommentController extends Controller
      */
     public function show(string $id)
     {
-        $comments = Comment::find($id);
+        $comments = Comments::find($id);
         return view('comments.create')->with('comments', $comments);
     }
 
