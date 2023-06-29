@@ -33,6 +33,13 @@
         background-color: white;
         box-shadow: 10px 10px 8px #383838;
     }
+    .sec-content{
+        padding: 50px 0;
+    }
+    .comment-title{
+        text-align: center;
+        font-size: 258px;
+    }
 </style>
 
 @include('header')
@@ -74,15 +81,17 @@
     </div>
 
     <div class="sec-content">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="comment-title">
-                    Users Comments
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="comment-title">
+                        Users Comments
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="news-title">
-                    Lates NEWS
+                <div class="col-lg-6">
+                    <div class="news-title">
+                        Lates NEWS
+                    </div>
                 </div>
             </div>
         </div>
