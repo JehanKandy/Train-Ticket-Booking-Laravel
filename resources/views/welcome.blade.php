@@ -36,10 +36,11 @@
     .sec-content{
         padding: 50px 0;
     }
-    .comment-title{
+    .comment-title ..news-title{
         text-align: center;
-        font-size: 258px;
+        font-size: 25px;
     }
+
 </style>
 
 @include('header')
