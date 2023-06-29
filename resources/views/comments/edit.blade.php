@@ -16,7 +16,7 @@
             </div>
             <div class="form-group">
                 <label for="Comment">Comment</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="comment" cols="30" rows="10" class="form-control">{{ $comments->comment }}</textarea>
             </div>
         </form>
 
