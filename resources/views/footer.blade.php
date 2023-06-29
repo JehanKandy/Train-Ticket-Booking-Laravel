@@ -62,11 +62,11 @@
                 <div class="footer-body">
                     <p><i class="fas fa-mobile-alt"></i> +94 711758851</p>
                     <p><i class="fas fa-mail-bulk"></i> jehankandy@gmail.com</p>
-                    <p><i class="fab fa-github-alt"></i> <a href="" target="_blank" style="color:white;">github.com/JehanKandy</a></p>
+                    <p><i class="fab fa-github-alt"></i> <a href="https://github.com/JehanKandy" target="_blank" style="color:white;">github.com/JehanKandy</a></p>
                 </div>
             </div>
         </div>
         <hr>
-        <p class="copy"><i class="fas fa-copyright"></i>JehanKandy 2021 - 2023</p>
+        <p class="copy"><i class="fas fa-copyright"></i> JehanKandy 2021 - 2023 | Project <a href="https://github.com/JehanKandy/Train-Ticket-Booking-Laravel" target="_blank" style="color: white;">Train Ticket Booking</a> | all rights reserved</p>
     </div>
 </footer>
