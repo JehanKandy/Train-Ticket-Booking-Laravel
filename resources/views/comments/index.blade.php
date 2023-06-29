@@ -38,8 +38,7 @@
                                     {{ method_field('DELETE') }}
                                     {{ csrf_field() }}
                                     <button type="submit" class="btn btn-danger btn-sm" title="Delete Articles" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fas fa-calendar-times" aria-hidden="true"></i> Delete</button>
-                                </form>
-                            
+                                </form>                            
                             @endif
                             
                         </td>
