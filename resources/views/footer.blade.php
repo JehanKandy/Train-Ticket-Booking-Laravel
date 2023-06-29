@@ -12,13 +12,15 @@
         text-align: center;
     }
     .footer-title{
-        font-size: 30px;
+        font-size: 25px;
+        padding: 0 0 20px 0;
     }
 </style>
 
 <footer>
     <div class="container">
         <h3>Train Ticket Booking</h3>
+        <hr>
         <div class="row">
             <div class="col-lg-4 footer-text">
                 <div class="footer-title">
