@@ -15,8 +15,18 @@
         font-size: 25px;
         padding: 0 0 20px 0;
     }
-    .links{
-        text-align: left;
+    .footer-body ul li {
+        list-style-type: none;
+        padding-bottom: 10px;
+    }
+    .footer-body ul li a{
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+    }
+    .footer-body ul li a:hover{
+        cursor: pointer;
+        text-decoration: underline;
     }
 </style>
 
@@ -37,7 +47,7 @@
                 <div class="footer-title">
                     Useful Links
                 </div>
-                <div class="footer-body links">
+                <div class="footer-body">
                     <ul>
                         <li><a href="">Train Routes</a></li>
                         <li><a href="">Train Timetable</a></li>
