@@ -17,6 +17,9 @@
                 <label for="comment">Comment</label>
                 <textarea name="comment" id="" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
             </div>
+            <div class="form-control">
+                <input type="submit" value="Add Comment" class="btn btn-success" style="width: 100%;">
+            </div>
         </form>
     </div>
 @endsection
