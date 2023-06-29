@@ -5,8 +5,11 @@
         <a href="{{ url('/comments') }}"><button class="btn btn-primary">Back</button></a><br><br>
         <h2>Comment</h2>
         <br>
-        <span><h3>Owner : </h3> {{ $comments->add_user }}</span>
+        <h3>Owner : </h3> 
+        <p>{{ $comments->add_user }}</p>
 
+        <h3>Comment : </h3> 
+        <p>{{ $comments->comment }}</p>
 
     </div>
 @endsection
