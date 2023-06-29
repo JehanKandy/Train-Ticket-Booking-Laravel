@@ -15,9 +15,9 @@
             </div>
             <div class="form-group">
                 <label for="comment">Comment</label>
-                <textarea name="comment" id="" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
+                <textarea name="comment" id="" cols="30" rows="10" class="form-control" style="resize: none;"></textarea><br>
             </div>
-            <div class="form-control">
+            <div class="form-group">
                 <input type="submit" value="Add Comment" class="btn btn-success" style="width: 100%;">
             </div>
         </form>
