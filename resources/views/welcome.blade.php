@@ -31,7 +31,7 @@
         cursor: pointer;
         color: black;
         background-color: white;
-        box-shadow: 10px 10px 8px 10px #888888;
+        box-shadow: 10px 10px 8px #383838;
     }
 </style>
 
