@@ -9,6 +9,8 @@
     }
     .main-title{
         color: white;
+        text-align: center;
+        padding: 50px 0;
     }
     
 </style>
