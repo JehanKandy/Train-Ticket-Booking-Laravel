@@ -12,7 +12,7 @@
             <div class="form-group">
                 <label for="Owner">Owner</label>
                 <input type="text" value="{{ $comments->add_user }}" class="form-control" disabled><br>
-                <input type="hidden" name="add_user">
+                <input type="hidden" name="add_user" value="{{ $comments->add_user }}">
             </div>
             <div class="form-group">
                 <label for="Comment">Comment</label>
