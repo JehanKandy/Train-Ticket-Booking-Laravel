@@ -63,15 +63,15 @@
             @endif            
         </div> --}}
 
-<div class="home-content">
-    <div class="container">
-        <h1 class="main-title">Book here And Travel AnyWhere</h1>
-        <h4 class="main-body">You can book a train before 1hour it's departure time <br>
+    <div class="home-content">
+        <div class="container">
+            <h1 class="main-title">Book here And Travel AnyWhere</h1>
+            <h4 class="main-body">You can book a train before 1hour it's departure time <br>
 
-        <a href=""><button class="book-btn"><i class="fas fa-train"></i> Book A Train</button></a>
-    </h4>
+            <a href=""><button class="book-btn"><i class="fas fa-train"></i> Book A Train</button></a>
+        </h4>
+        </div>
     </div>
-</div>
 
 
 
