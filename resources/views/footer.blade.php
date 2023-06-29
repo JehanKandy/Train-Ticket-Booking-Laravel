@@ -15,6 +15,9 @@
         font-size: 25px;
         padding: 0 0 20px 0;
     }
+    .links{
+        text-align: left;
+    }
 </style>
 
 <footer>
@@ -34,7 +37,7 @@
                 <div class="footer-title">
                     Useful Links
                 </div>
-                <div class="footer-body">
+                <div class="footer-body links">
                     <ul>
                         <li><a href="">Train Routes</a></li>
                         <li><a href="">Train Timetable</a></li>
