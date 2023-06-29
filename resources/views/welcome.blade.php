@@ -92,7 +92,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-5">
                     <div class="news-title">
-                        Latest NEWS
+                        NEWS
                     </div>
                 </div>
             </div>
