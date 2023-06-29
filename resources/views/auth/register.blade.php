@@ -69,7 +69,7 @@
                             </div>
                         </div>
                     </form>
-                    <p>Alredy have an Account ? <a href="{{ utl('login') }}">Login</a></p>
+                    <p>Alredy have an Account ? <a href="{{ url('login') }}">Login</a></p>
                 </div>
             </div>
         </div>
