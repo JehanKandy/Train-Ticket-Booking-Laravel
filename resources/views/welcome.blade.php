@@ -7,6 +7,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .main-title{
+        color: white;
+    }
+    
 </style>
 
 @include('header')
@@ -39,7 +43,7 @@
 
 <div class="home-content">
     <div class="container">
-        Book here And Travel AnyWhere
+        <h1 class="main-title">Book here And Travel AnyWhere</h1>
     </div>
 </div>
 
