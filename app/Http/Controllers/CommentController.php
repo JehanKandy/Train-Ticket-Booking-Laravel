@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Comments;
+use Egulias\EmailValidator\Warning\Comment;
 use Illuminate\Http\Request;
 
 class CommentController extends Controller
@@ -29,7 +30,11 @@ class CommentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $comments = $request->all();
+        $request->validate([
+            'comment' => 'required',
+        ]);
+        Comments::create($comments);
     }
 
     /**
