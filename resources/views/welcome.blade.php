@@ -76,7 +76,7 @@
             <h1 class="main-title">Book here And Travel AnyWhere</h1>
             <h4 class="main-body">You can book a train before 1hour it's departure time <br>
 
-            <a href=""><button class="book-btn"><i class="fas fa-train"></i> Book A Train</button></a>
+            <a href="{{ url('/login') }}"><button class="book-btn"><i class="fas fa-train"></i> Book A Train</button></a>
         </h4>
         </div>
     </div>
