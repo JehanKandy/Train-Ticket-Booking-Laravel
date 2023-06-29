@@ -22,6 +22,7 @@
                 @foreach ($comments as $comment)
                     <tr>
                         <td>{{ $loop->iteration }}</td>
+                        <td>{{ $comment->add_user }}</td>
                         <td>{{ $comment->comment }}</td>
                         <td>{{ $comment->created_at }}</td>
                         <td>{{ $comment->updated_at }}</td>
