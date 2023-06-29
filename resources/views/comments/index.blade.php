@@ -13,12 +13,19 @@
                     <th>ID</th>
                     <th>Owner</th>
                     <th>Comment</th>
+                    <th>Created At</th>
+                    <th>Last Update</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($collection as $item)
-                    
+                @foreach ($comments as $comment)
+                    <tr>
+                        <td>{{ $loop->iteration }}</td>
+                        <td>{{ $comment->add_user }}</td>
+                        <td>{{ $comment->add_user }}</td>
+                        <td>{{ $comment->add_user }}</td>
+                    </tr>                    
                 @endforeach
             </tbody>
         </table>
