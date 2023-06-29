@@ -21,7 +21,7 @@ class CommentController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('comments.create');
     }
 
     /**
