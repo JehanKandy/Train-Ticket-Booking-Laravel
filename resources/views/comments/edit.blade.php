@@ -18,6 +18,9 @@
                 <label for="Comment">Comment</label>
                 <textarea name="comment" cols="30" rows="10" class="form-control">{{ $comments->comment }}</textarea>
             </div>
+            <div class="form-group">
+                <input type="submit" value="Update Comment" class="btn btn-success">
+            </div>
         </form>
 
         
