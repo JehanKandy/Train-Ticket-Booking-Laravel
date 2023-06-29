@@ -2,7 +2,7 @@
 <style>
     .home-content{
         height: 80vh;
-        background-image: linear-gradient(to bottom, rgba(116, 116, 116, 0.52), rgba(0, 0, 0, 0.73)), url('https://wallpapercave.com/dwp1x/YKCVphS.jpg');
+        background-image: linear-gradient(to bottom, rgba(78, 78, 78, 0.52), rgba(0, 0, 0, 0.73)), url('https://wallpapercave.com/dwp1x/YKCVphS.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -10,7 +10,8 @@
     .main-title{
         color: white;
         text-align: center;
-        padding: 50px 0;
+        padding: 200px 0;
+        font-size: 50px;
     }
     
 </style>
