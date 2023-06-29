@@ -27,6 +27,7 @@
     .footer-body ul li a:hover{
         cursor: pointer;
         text-decoration: underline;
+        font-size: 15px;
     }
 </style>
 
@@ -57,6 +58,10 @@
             <div class="col-lg-4 footer-text">
                 <div class="footer-title">
                     Contact Us
+                </div>
+                <div class="footer-body">
+                    <p><i class="fas fa-mobile-alt"></i> +94 711758851</p>
+                    <p><i class="fa fa-send"></i> jehankandy@gmail.com</p>
                 </div>
             </div>
         </div>
