@@ -100,6 +100,8 @@
                     class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
             <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-user-tie me-2"></i>Users</a>
+            <a href="{{url('/comments')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                    class="fas fa-user-tie me-2"></i>Comments</a>
 
             
         </div>
