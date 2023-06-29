@@ -62,13 +62,12 @@ class CommentController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $comments = new Comment([
+        $comments=Comments::find($id);
+
+        $comments->update([
             "add_user" =>$request->add_user,
             "comment" =>$request->comment,
         ]);
-
-        $comments->save();
-
 
         return redirect("/comments");
     }
