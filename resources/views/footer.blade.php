@@ -29,6 +29,9 @@
         text-decoration: underline;
         font-size: 15px;
     }
+    .copy{
+        text-align: center;
+    }
 </style>
 
 <footer>
