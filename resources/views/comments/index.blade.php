@@ -28,6 +28,11 @@
                         <td>{{ $comment->updated_at }}</td>
                         <td>
                             <a href="{{ url('/comments/' . $comment->id) }}" title="View Comments"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
+                            
+                            @if ()
+                                
+                            @endif
+                            
                         </td>
                     </tr>                    
                 @endforeach
