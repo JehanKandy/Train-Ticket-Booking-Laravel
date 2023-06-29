@@ -1,4 +1,4 @@
-@extends('layouts.dash');
+@extends('layouts.dash')
 
 @section('content')
     
