@@ -26,6 +26,9 @@
                         <td>{{ $comment->comment }}</td>
                         <td>{{ $comment->created_at }}</td>
                         <td>{{ $comment->updated_at }}</td>
+                        <td>
+                            <a href="{{ url('/comments/' . $comment->id) }}" title="View Comments"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
+                        </td>
                     </tr>                    
                 @endforeach
             </tbody>
