@@ -16,10 +16,10 @@
             </div>
             <div class="form-group">
                 <label for="Comment">Comment</label>
-                <textarea name="comment" cols="30" rows="10" class="form-control">{{ $comments->comment }}</textarea>
+                <textarea name="comment" cols="30" rows="10" class="form-control">{{ $comments->comment }}</textarea> <br>
             </div>
             <div class="form-group">
-                <input type="submit" value="Update Comment" class="btn btn-success">
+                <input type="submit" value="Update Comment" class="btn btn-success" style="width: 100%;">
             </div>
         </form>
 
