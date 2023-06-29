@@ -73,6 +73,21 @@
         </div>
     </div>
 
+    <div class="sec-content">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="comment-title">
+                    Users Comments
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="news-title">
+                    Lates NEWS
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     @include('footer')
 
