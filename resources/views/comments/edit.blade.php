@@ -6,7 +6,7 @@
         <h2>Update Comment</h2>
         <hr>
 
-        <form action="{{ url('users/' .$members->id) }}" method="POST">
+        <form action="{{ url('comments/' .$members->id) }}" method="POST">
             @csrf
             @method("PATCH")
             <div class="form-group">
