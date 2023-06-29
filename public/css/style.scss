@@ -1,5 +1,10 @@
 @import "root";
 
+.all-images{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .main-content{
     background: linear-gradient(to bottom left, #3399ff 0%, #ff33cc 100%);
     height: 100vh;
