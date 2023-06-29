@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comments;
 use Illuminate\Http\Request;
 
 class CommentController extends Controller
@@ -11,7 +12,8 @@ class CommentController extends Controller
      */
     public function index()
     {
-        
+        $comments = Comments::all();
+        return view('comments')->with('comments', $comments);
     }
 
     /**
