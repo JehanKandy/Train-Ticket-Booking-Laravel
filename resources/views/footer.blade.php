@@ -11,6 +11,9 @@
     .footer-text{
         text-align: center;
     }
+    .footer-title{
+        font-size: 30px;
+    }
 </style>
 
 <footer>
@@ -18,13 +21,19 @@
         <h3>Train Ticket Booking</h3>
         <div class="row">
             <div class="col-lg-4 footer-text">
-                About Us
+                <div class="footer-title">
+                    About Us
+                </div>
             </div>
             <div class="col-lg-4 footer-text">
-                Useful Links
+                <div class="footer-title">
+                    Useful Links
+                </div>
             </div>
             <div class="col-lg-4 footer-text">
-                Contact As
+                <div class="footer-title">
+                    Contact Us
+                </div>
             </div>
         </div>
     </div>
