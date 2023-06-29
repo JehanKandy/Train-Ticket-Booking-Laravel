@@ -18,13 +18,13 @@
         <h3>Train Ticket Booking</h3>
         <div class="row">
             <div class="col-lg-4 footer-text">
-                Footer 1
+                About Us
             </div>
             <div class="col-lg-4 footer-text">
-                Footer 1
+                Useful Links
             </div>
             <div class="col-lg-4 footer-text">
-                Footer 1
+                Contact As
             </div>
         </div>
     </div>
