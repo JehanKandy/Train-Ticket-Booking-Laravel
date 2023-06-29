@@ -1,6 +1,9 @@
 <style>
     footer{
-        background-color: black;
+        background-image: linear-gradient(to bottom, rgba(78, 78, 78, 0.52), rgba(0, 0, 0, 0.863)), url('https://wallpapercave.com/dwp1x/YKCVphS.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         color: white;
         padding: 50px 0;
     }
