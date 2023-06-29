@@ -13,7 +13,7 @@ class CommentController extends Controller
     public function index()
     {
         $comments = Comments::all();
-        return view('comments')->with('comments', $comments);
+        return view('comments.index')->with('comments', $comments);
     }
 
     /**
