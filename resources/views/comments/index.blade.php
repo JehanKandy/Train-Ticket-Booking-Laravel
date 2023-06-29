@@ -16,6 +16,11 @@
                     <th>Action</th>
                 </tr>
             </thead>
+            <tbody>
+                @foreach ($collection as $item)
+                    
+                @endforeach
+            </tbody>
         </table>
     </div>
 @endsection
