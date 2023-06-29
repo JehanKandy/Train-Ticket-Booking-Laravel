@@ -26,6 +26,9 @@
                 <div class="footer-title">
                     About Us
                 </div>
+                <div class="footer-body">
+                    The Train Ticket Booking Project Develop for educational purposes only
+                </div>
             </div>
             <div class="col-lg-4 footer-text">
                 <div class="footer-title">
