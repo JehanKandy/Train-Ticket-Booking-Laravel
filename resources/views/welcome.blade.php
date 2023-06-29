@@ -3,6 +3,9 @@
     .home-content{
         height: 60vh;
         background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url('https://wallpapercave.com/dwp1x/YKCVphS.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
 
@@ -34,7 +37,7 @@
             @endif            
         </div> --}}
 
-<div class="home-content all-images">
+<div class="home-content">
     <div class="container">
         Book here And Travel AnyWhere
     </div>
