@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('train_routes', function (Blueprint $table) {
             $table->id();
+            $table->string('train_name');
+            $table->string('start_station');
+            $table->time('start_time');
+            $table->string('end_station');
+            $table->time('end_time');
             $table->timestamps();
         });
     }
