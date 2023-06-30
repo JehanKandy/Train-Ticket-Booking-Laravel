@@ -100,7 +100,7 @@
                     class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
             <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-user-tie me-2"></i>Users</a>
-            <a href="{{url('/routesTrain')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+            <a href="{{url('/train_routes')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-subway me-2"></i>Train Routes</a>
             <a href="{{url('/comments')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-comments me-2"></i>Comments</a>
