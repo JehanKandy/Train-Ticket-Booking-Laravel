@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\TrainRoutes;
 use Illuminate\Http\Request;
 
 class TrainRouteController extends Controller
@@ -11,7 +12,8 @@ class TrainRouteController extends Controller
      */
     public function index()
     {
-        //
+        $trainRoute = TrainRoutes::all();
+        return view('train_routes.index')->with('train_routes', $trainRoute);
     }
 
     /**
