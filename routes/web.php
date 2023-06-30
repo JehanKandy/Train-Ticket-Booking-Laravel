@@ -41,3 +41,5 @@ Route::get('client', function(){
 
 Route::resource("/users", UserController::class);
 Route::resource('/comments', CommentController::class);
+
+Route::resource('/train_routes', TrainRouteController::class);
