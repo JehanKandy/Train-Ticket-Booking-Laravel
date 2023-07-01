@@ -24,6 +24,7 @@
                 <tbody>
                     @foreach ($train_routes as $train)
                         <td>{{ $loop->iteration }}</td>
+                        <td>{{ $train->train_name }}</td>
                         <td>{{ $train->start_station }}</td>
                         <td>{{ $train->start_time }}</td>
                         <td>{{ $train->end_station }}</td>
