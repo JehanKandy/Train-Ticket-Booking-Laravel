@@ -16,6 +16,7 @@
                         <th>Start Time</th>
                         <th>End Station</th>
                         <th>End Time</th>
+                        <th>Weekly Schedule</th>
                         <th>Add Date</th>
                         <th>Last Update</th>
                         <th>Action</th>
