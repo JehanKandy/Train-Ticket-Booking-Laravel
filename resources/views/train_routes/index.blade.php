@@ -40,6 +40,9 @@
                         </td>
                         <td>{{ $train->created_at }}</td>
                         <td>{{ $train->updated_at }}</td>
+                        <td>
+                            
+                        </td>
                     @endforeach
                 </tbody>
             </table>
