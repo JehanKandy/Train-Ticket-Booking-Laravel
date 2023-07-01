@@ -12,5 +12,16 @@
             </div>
         </div>
         <hr>
+        <div class="row">
+            <div class="col-lg-6">
+                Train Timings
+            </div>
+            <div class="col-lg-3">
+                <b>Start Station</b>
+            </div>
+            <div class="col-lg-3">
+                <b>End Station</b>
+            </div>
+        </div>
     </div>
 @endsection
