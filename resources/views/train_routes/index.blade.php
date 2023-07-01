@@ -44,7 +44,7 @@
                             <a href="{{ url('/train_routes/' . $train->id) }}" title="View Traub Route"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
                             
                             @if (auth()->user()->role == 1 || auth()->user()->role == 2)
-                                <a href="{{ url('/train_routes/' . $comment->id . '/edit') }}" title="Edit Train Routes"><button class="btn btn-primary btn-sm"><i class="fas fa-edit" aria-hidden="true"></i> Edit</button></a>
+                                <a href="{{ url('/train_routes/' . $train->id . '/edit') }}" title="Edit Train Routes"><button class="btn btn-primary btn-sm"><i class="fas fa-edit" aria-hidden="true"></i> Edit</button></a>
                             @endif
 
                             @if (auth()->user()->role == 1)
