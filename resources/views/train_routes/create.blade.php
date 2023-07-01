@@ -31,7 +31,8 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="form-group">
-                        <label for="Monday">Monday</label>
+                        <span><label for="Monday">Monday</label>
+                        <input type="checkbox" name="" id="" class="form-control"> Car</span>
                         <input type="checkbox" name="" id="" class="form-control">
                     </div>
                 </div>
