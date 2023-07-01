@@ -95,6 +95,20 @@
                     </div>
                 </div>
                 <div class="col-lg-3"></div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="start_station">Start Station</label>
+                        <input type="text" name="start_station" class="form-control" placeholder="Start Station">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="start_time">Start Time</label>
+                        <input type="time" name="start_time" class="form-control" placeholder="Start Time"><br>
+                    </div>
+                </div>
             </div>
 
         </form>
