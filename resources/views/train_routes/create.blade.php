@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
-                        <label for="start_time">Start Time</label>
+                        <label for="start_time">Departure Time</label>
                         <input type="time" name="start_time" class="form-control" placeholder="Start Time"><br>
                     </div>
                 </div>
