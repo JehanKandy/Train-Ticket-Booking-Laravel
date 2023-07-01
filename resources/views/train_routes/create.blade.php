@@ -111,6 +111,16 @@
                 </div>
                 <div class="col-lg-3"></div>
             </div><br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="reset" value="Clear" class="btn btn-secondary" style="width: 100%">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <input type="submit" value="Add Train Route" class="btn btn-success" style="width: 100%">
+                </div>
+            </div>
 
         </form>
         
