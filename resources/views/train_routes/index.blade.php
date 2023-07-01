@@ -22,9 +22,15 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($trainRoute as $train)
+                    @foreach ($train_routes as $train)
                         <td>{{ $loop->iteration }}</td>
-                        <td>{{ $train->train_name }}</td>
+                        <td>{{ $train->start_station }}</td>
+                        <td>{{ $train->start_time }}</td>
+                        <td>{{ $train->end_station }}</td>
+                        <td>{{ $train->end_time }}</td>
+                        <td>{{ $train->weekly_schedule }}</td>
+                        <td>{{ $train->created_at }}</td>
+                        <td>{{ $train->updated_at }}</td>
                     @endforeach
                 </tbody>
             </table>
