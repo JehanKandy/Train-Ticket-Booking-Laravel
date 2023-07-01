@@ -23,5 +23,11 @@
                 <b>End Station</b>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-2">
+                {{ $train_routes->start_station }}
+            </div>
+        </div>
     </div>
 @endsection
