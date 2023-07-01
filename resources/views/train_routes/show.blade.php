@@ -14,7 +14,7 @@
         <hr>
         <div class="row">
             <div class="col-lg-6">
-                Train Timings
+                <b>Train Timings</b>
             </div>
             <div class="col-lg-3">
                 <b>Start Station</b>
