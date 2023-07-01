@@ -77,7 +77,7 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="" name="" id="flexCheckDefault">
                             <label class="form-check-label" for="Saturday">
                              Saturday
                             </label>
