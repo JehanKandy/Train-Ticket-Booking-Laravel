@@ -5,7 +5,7 @@
         <h2>Train Route</h2>
         <div class="row">
             <div class="col-lg-6">
-                Train Name
+                <b>Train Name</b>
             </div>
             <div class="col-lg-6">
                 {{ $train_routes->train_name }}
