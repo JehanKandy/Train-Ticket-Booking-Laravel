@@ -30,10 +30,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="form-group">
-                        <span><label for="Monday">Monday</label>
-                        <input type="checkbox" name="" id="" class="form-control"> Car</span>
-                        <input type="checkbox" name="" id="" class="form-control">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
                     </div>
                 </div>
                 <div class="col-lg-4"></div>
