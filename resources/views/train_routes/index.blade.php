@@ -23,7 +23,7 @@
                 </thead>
                 <tbody>
                     @foreach ($train_routes as $train)
-                        <td>{{ $loop->iteration }}</td>
+                        <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $train->train_name }}</td>
                         <td>{{ $train->start_station }}</td>
                         <td>{{ $train->start_time }}</td>
