@@ -33,13 +33,27 @@
                 <div class="col-lg-4">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Default checkbox
+                        <label class="form-check-label" for="Monday">
+                          Monday
                         </label>
                     </div>
                 </div>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="Tuesday">
+                          Tuesday
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="Wednesday">
+                          Wednesday
+                        </label>
+                    </div>
+                </div>
             </div>
 
         </form>
