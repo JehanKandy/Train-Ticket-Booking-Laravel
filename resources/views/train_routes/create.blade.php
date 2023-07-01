@@ -28,6 +28,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="Monday">Monday</label>
+                        <input type="checkbox" name="" id="" class="form-control">
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4"></div>
+            </div>
 
         </form>
         
