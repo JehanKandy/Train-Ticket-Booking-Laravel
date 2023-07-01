@@ -21,7 +21,7 @@ class TrainRouteController extends Controller
      */
     public function create()
     {
-        //
+        return view('train_routes.create');
     }
 
     /**
