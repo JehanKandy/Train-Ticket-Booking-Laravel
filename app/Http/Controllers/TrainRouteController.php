@@ -45,7 +45,7 @@ class TrainRouteController extends Controller
         $trainRoute->start_time = $request->start_time;
         $trainRoute->end_station = $request->end_station;
         $trainRoute->end_time = $request->end_time;
-        $trainRoute->weekly_schedule = $request->weekly_schedule;
+        $trainRoute->weekly_schedule = json_encode($request->weekly_schedule);
 
         $trainRoute->save();
 
