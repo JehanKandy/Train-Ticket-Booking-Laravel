@@ -49,7 +49,7 @@ class TrainRouteController extends Controller
 
         $trainRoute->save();
 
-        
+        return redirect('/train_routes');
     }
 
     /**
