@@ -63,6 +63,39 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="Thursday">
+                              Friday
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="Saturday">
+                             Saturday
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="Sunday">
+                              Sunday
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
 
         </form>
         
