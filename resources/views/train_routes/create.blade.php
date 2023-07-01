@@ -29,6 +29,21 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="start_station">End Station</label>
+                        <input type="text" name="end_station" class="form-control" placeholder="Start Station">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="start_time">Arrival Time</label>
+                        <input type="time" name="end_time" class="form-control" placeholder="Start Time"><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
                 <label for="days"><b>Select Days</b></label> <br><br>
                 <div class="col-lg-3">
                     <div class="form-check">
@@ -96,20 +111,6 @@
                 </div>
                 <div class="col-lg-3"></div>
             </div><br><br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="form-group">
-                        <label for="start_station">End Station</label>
-                        <input type="text" name="end_station" class="form-control" placeholder="Start Station">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="form-group">
-                        <label for="start_time">Arrival Time</label>
-                        <input type="time" name="end_time" class="form-control" placeholder="Start Time"><br>
-                    </div>
-                </div>
-            </div>
 
         </form>
         
