@@ -30,7 +30,7 @@ class TrainRouteController extends Controller
     public function store(Request $request)
     {
         $trainRoute = $request->validate([
-            'train_name' => 'required|unique:train_name|'
+            'train_name' => 'required|unique:train_routes,train_name|max:255',
         ]);
     }
 
