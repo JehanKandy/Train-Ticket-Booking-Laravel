@@ -23,6 +23,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @if (count($train_routes > 0))
                     @foreach ($train_routes as $train)
                         <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $train->train_name }}</td>
@@ -34,6 +35,12 @@
                         <td>{{ $train->created_at }}</td>
                         <td>{{ $train->updated_at }}</td>
                     @endforeach
+                    @else
+                        <tr>
+                            <td colspan="10">No Train Route Found</td>
+                        </tr>
+                    @endif
+
                 </tbody>
             </table>
         
