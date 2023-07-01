@@ -15,7 +15,8 @@
             <ul>
                 @foreach ($errors->all() as $error)
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <strong>Errors : </strong> You got Following Errors while 
+                        <strong>Errors : </strong> You got Following Errors while validation this form<br>
+                        <li>{{ $error }}</li>
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 @endforeach
