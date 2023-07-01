@@ -18,6 +18,7 @@ return new class extends Migration
             $table->time('start_time');
             $table->string('end_station');
             $table->time('end_time');
+            $table->string('weekly_schedule');
             $table->timestamps();
         });
     }
