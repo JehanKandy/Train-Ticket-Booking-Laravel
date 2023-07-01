@@ -31,6 +31,12 @@
             <div class="col-lg-1">
                 {{ $train_routes->start_time }}
             </div>
+            <div class="col-lg-2">
+                {{ $train_routes->end_station }}
+            </div>
+            <div class="col-lg-1">
+                {{ $train_routes->end_time }}
+            </div>
         </div>
     </div>
 @endsection
