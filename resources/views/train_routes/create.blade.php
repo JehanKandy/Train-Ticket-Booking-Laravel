@@ -99,13 +99,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="form-group">
-                        <label for="start_station">Start Station</label>
+                        <label for="start_station">End Station</label>
                         <input type="text" name="start_station" class="form-control" placeholder="Start Station">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
-                        <label for="start_time">Start Time</label>
+                        <label for="start_time">Arrival Time</label>
                         <input type="time" name="start_time" class="form-control" placeholder="Start Time"><br>
                     </div>
                 </div>
