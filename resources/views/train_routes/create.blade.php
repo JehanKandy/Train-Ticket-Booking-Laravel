@@ -11,6 +11,14 @@
         <h2><i class="fas fa-subway"></i> Add Train Route</h2>
         <hr>
 
+        @if ($errors->any())
+            <ul>
+                @foreach ($errors->all() as $error)
+                    
+                @endforeach
+            </ul>
+        @endif
+
         <form action="{{ url('/train_routes') }}" method="post">
             @csrf
             <div class="form-group">
