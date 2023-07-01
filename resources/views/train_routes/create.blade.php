@@ -24,7 +24,7 @@
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_time">Departure Time</label>
-                        <input type="time" name="start_time" class="form-control" placeholder="Start Time"><br>
+                        <input type="time" name="start_time" class="form-control" placeholder="Departure Time"><br>
                     </div>
                 </div>
             </div>
@@ -32,13 +32,13 @@
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_station">End Station</label>
-                        <input type="text" name="end_station" class="form-control" placeholder="Start Station">
+                        <input type="text" name="end_station" class="form-control" placeholder="End Station">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_time">Arrival Time</label>
-                        <input type="time" name="end_time" class="form-control" placeholder="Start Time"><br>
+                        <input type="time" name="end_time" class="form-control" placeholder="Arrival Time"><br>
                     </div>
                 </div>
             </div>
