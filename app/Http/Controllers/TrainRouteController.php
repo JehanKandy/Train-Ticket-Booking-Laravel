@@ -40,12 +40,12 @@ class TrainRouteController extends Controller
         // dd($request->all());
 
         $trainRoute = new TrainRoutes;
-        $trainRoute->train_name - $request->train_name;
-        $trainRoute->start_station - $request->start_station;
-        $trainRoute->start_time - $request->start_time;
-        $trainRoute->end_station - $request->end_station;
-        $trainRoute->end_time - $request->end_time;
-        $trainRoute->weekly_schedule - $request->weekly_schedule;
+        $trainRoute->train_name = $request->train_name;
+        $trainRoute->start_station = $request->start_station;
+        $trainRoute->start_time = $request->start_time;
+        $trainRoute->end_station = $request->end_station;
+        $trainRoute->end_time = $request->end_time;
+        $trainRoute->weekly_schedule = $request->weekly_schedule;
 
         $trainRoute->save();
 
