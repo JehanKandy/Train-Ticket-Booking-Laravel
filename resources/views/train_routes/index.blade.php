@@ -30,7 +30,14 @@
                         <td>{{ $train->start_time }}</td>
                         <td>{{ $train->end_station }}</td>
                         <td>{{ $train->end_time }}</td>
-                        <td>{{ $train->weekly_schedule }}</td>
+                        <td>
+                            @php
+                                $schedule = json_decode($train->weekly_schedule);
+                            @endphp
+                            @foreach ($schedule as $days)
+                                {{ $days }}<br>
+                            @endforeach
+                        </td>
                         <td>{{ $train->created_at }}</td>
                         <td>{{ $train->updated_at }}</td>
                     @endforeach
