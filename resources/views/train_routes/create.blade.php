@@ -29,6 +29,7 @@
                 </div>
             </div>
             <div class="row">
+                <label for="days">Select Days</label>
                 <div class="col-lg-4">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
