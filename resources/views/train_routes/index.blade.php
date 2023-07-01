@@ -5,7 +5,7 @@
         @if (auth()->user()->role == 1)
             <a href="{{ url('train_routes/create') }}"><button class="btn btn-success"><i class="fas fa-subway"></i> Add Train Route</button></a><br>
         @endif
-        
+
             <hr><br>
             <table class="table">
                 <thead class="table-primary">
@@ -21,6 +21,12 @@
                         <th>Action</th>
                     </tr>
                 </thead>
+                <tbody>
+                    @foreach ($trainRoute as $train)
+                        <td>{{ $loop->iteration }}</td>
+                        <td>{{ $train->train_name }}</td>
+                    @endforeach
+                </tbody>
             </table>
         
 
