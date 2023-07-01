@@ -29,7 +29,9 @@ class TrainRouteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $trainRoute = $request->validate([
+
+        ]);
     }
 
     /**
