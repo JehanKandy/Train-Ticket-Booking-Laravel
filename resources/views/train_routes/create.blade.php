@@ -30,7 +30,7 @@
             </div>
             <div class="row">
                 <label for="days"><b>Select Days</b></label> <br><br>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="Monday">
@@ -38,7 +38,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="Tuesday">
@@ -46,11 +46,19 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="Wednesday">
                           Wednesday
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="Thursday">
+                          Thursday
                         </label>
                     </div>
                 </div>
