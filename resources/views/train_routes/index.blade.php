@@ -4,7 +4,7 @@
     <div class="admin-card">
         @if (auth()->user()->role == 1)
             <a href="{{ url('train_routes/create') }}"><button class="btn btn-success"><i class="fas fa-subway"></i> Add Train Route</button></a><br>
-            <hr><br><br>
+            <hr><br>
             <table class="table">
                 <thead class="table-primary">
                     <tr>
