@@ -29,7 +29,7 @@ class TrainRouteController extends Controller
      */
     public function store(Request $request)
     {
-        $trainRoute = $request->validate([
+        $request->validate([
             'train_name' => 'required|unique:train_routes,train_name|max:255',
             'start_station' => 'required',
             'start_time' => 'required',
@@ -37,7 +37,9 @@ class TrainRouteController extends Controller
             'end_time' => 'required',
             'weekly_schedule' =>'required',
         ]);
-        dd($request->all());
+        // dd($request->all());
+
+        
     }
 
     /**
