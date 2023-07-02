@@ -1,6 +1,7 @@
 @extends('layouts.dash')
 
 @section('content')
+    <a href="{{ url('/train_routes') }}"><button class="btn btn-primary">Back</button></a>
     <div class="admin-card">
         <h2>Train Route</h2><br><br>
         <div class="row">
