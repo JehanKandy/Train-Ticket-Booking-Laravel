@@ -61,7 +61,7 @@
                                 $time_now = date_default_timezone_set("Asia/Colombo");
 
                                 if($train->start_time > $time_now){
-                                echo "<h5>Train </h5>"
+                                    echo "<h5>Train Departed</h5>";
                                 }
                             @endphp
                             
