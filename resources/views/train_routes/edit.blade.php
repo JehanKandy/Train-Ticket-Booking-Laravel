@@ -12,7 +12,7 @@
 
         @php
             $days = json_decode($train_routes[0]->weekly_schedule);
-            print_r();
+            print_r($days);
         @endphp
 
 
