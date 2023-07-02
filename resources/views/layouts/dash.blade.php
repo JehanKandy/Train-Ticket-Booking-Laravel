@@ -97,7 +97,7 @@
         <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom"><i class="fa-sharp fa-solid fas fa-train"></i> Booking</div>
         <div class="list-group list-group-flush my-3">
             <a href="
-                    @php
+                    {{-- @php
                         if(auth()->user()->role == 1){
                             header("Location:admin");
                         }
@@ -107,6 +107,15 @@
                         elseif (auth()->user()->role == 3) {
                             header("Location:client");
                         }
+                    @endphp --}}
+
+                    @php
+                    if(auth()->user()->role == 1){
+                    @endphp
+                    {{url('/admin')}} 
+                    @php
+                    }
+                    
                     @endphp
 
                     " class="list-group-item list-group-item-action bg-transparent second-text active"><i
