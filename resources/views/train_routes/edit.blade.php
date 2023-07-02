@@ -10,6 +10,12 @@
         <h2>Update Train Route</h2>
         <hr><br>
 
+        @php
+            $days = json_decode($train_routes[0]->weekly_schedule);
+            print_r();
+        @endphp
+
+
         <form action="{{ url('train_routes/' .$train_routes->id) }}" method="POST">
             @csrf
             @method("PATCH")
