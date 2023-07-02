@@ -55,7 +55,7 @@
                 <label for="days"><b>Select Days</b></label> <br><br>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault" @if($trainRoute->contains('Monday')) checked @endif>
+                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Monday',$days)? 'checked':'' }}>
                         <label class="form-check-label" for="Monday">
                           Monday
                         </label>
