@@ -11,29 +11,29 @@
         <hr><br>
 
         @php
-            $days = json_decode($train_routes[0]->train_name);
+            $days = json_decode($trainRoute[0]->train_name);
         @endphp
 
 
-        <form action="{{ url('train_routes/' .$train_routes->id) }}" method="POST">
+        <form action="{{ url('train_routes/' .$trainRoute->id) }}" method="POST">
             @csrf
             @method("PATCH")
             
             <div class="form-group">
                 <label for="train_name">Train Name</label>
-                <input type="text" name="train_name" id="" value="{{ $train_routes[0]->train_name }}" class="form-control"><br>
+                <input type="text" name="train_name" id="" value="{{ $trainRoute[0]->train_name }}" class="form-control"><br>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_station">Start Station</label>
-                        <input type="text" name="start_station" id="" value="{{ $train_routes->start_station }}" class="form-control">
+                        <input type="text" name="start_station" id="" value="{{ $trainRoute->start_station }}" class="form-control">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_time">Departure Time</label>
-                        <input type="time" name="start_time" id="" value="{{ $train_routes->start_time }}" class="form-control"><br>
+                        <input type="time" name="start_time" id="" value="{{ $trainRoute->start_time }}" class="form-control"><br>
                     </div>
                 </div>
             </div>
@@ -41,13 +41,13 @@
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="end_station">End Station</label>
-                        <input type="text" name="end_station" id="" value="{{ $train_routes->end_station }}" class="form-control">
+                        <input type="text" name="end_station" id="" value="{{ $trainRoute->end_station }}" class="form-control">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="end_time">Arrival Time</label>
-                        <input type="time" name="end_time" id="" value="{{ $train_routes->end_time }}" class="form-control"><br>
+                        <input type="time" name="end_time" id="" value="{{ $trainRoute->end_time }}" class="form-control"><br>
                     </div>
                 </div>
             </div>
