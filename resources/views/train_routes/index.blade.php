@@ -61,9 +61,11 @@
                         <td>
 
                                 @php
-                                    if($train->start_time > \Carbon\Carbon::now()){
-                                        echo "HI"
-                                    }   
+                                    if($train->start_time < \Carbon\Carbon::now()){
+                                        echo "<h4 class='badge bg-danger'>Train Departed</h4>";
+                                    }else{
+                                        echo "<h4 class='badge bg-success'>Train Not Departed</h4>";
+                                    } 
                                 @endphp
 
                         </td>
