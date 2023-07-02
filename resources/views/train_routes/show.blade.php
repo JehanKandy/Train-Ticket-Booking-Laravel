@@ -50,7 +50,7 @@
                     $schedule = json_decode($train_routes->weekly_schedule);
                 @endphp
                 @foreach ($schedule as $days)
-                    {{ $days }}
+                    {{ $days }},
                 @endforeach
             </div>
         </div>
