@@ -57,11 +57,7 @@
                             @endif                            
                         </td>
                         <td>
-                            @php
-                                $mytime = Carbon\Carbon::now();
-                                echo $mytime->toDateTimeString();
-                                echo $mytime;
-                            @endphp                             
+                            {{ now()->format('H:i:s') }}               
 
                         </td>
                     </tr> 
