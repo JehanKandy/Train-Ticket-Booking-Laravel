@@ -31,6 +31,7 @@
             @method("PATCH")
             
             <div class="form-group">
+                <input type="hidden" name="id" value="{{ $trainRoute[0]->id }}">
                 <label for="train_name">Train Name</label>
                 <input type="text" name="train_name" id="" value="{{ $trainRoute[0]->train_name }}" class="form-control"><br>
             </div>
