@@ -57,7 +57,13 @@
                             @endif                            
                         </td>
                         <td>
-                            
+                            @php
+                                use Carbon\Carbon;
+
+                                $currentDateTime = Carbon::now();
+                                $currentTime = $currentDateTime->toTimeString();
+
+                            @endphp                             
 
                         </td>
                     </tr> 
