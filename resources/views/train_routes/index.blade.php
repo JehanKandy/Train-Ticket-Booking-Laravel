@@ -57,7 +57,10 @@
                             @endif                            
                         </td>
                         <td>
-                            {{ now()->format('H:i:s') }}               
+                            @php
+                                $time_now = date_default_timezone_set("Asia/Colombo");
+                            @endphp
+                            
 
                         </td>
                     </tr> 
