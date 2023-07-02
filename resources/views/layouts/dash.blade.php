@@ -117,8 +117,10 @@
                     class="fas fa-subway me-2"></i>Train Routes</a>
             <a href="{{url('/comments')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-comments me-2"></i>Comments</a>
-            <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
-                    class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+                    class="fas fa-tachometer-alt me-2"></i>
+                    <span id="time"></span>
+                    </a>
 
             
         </div>
@@ -191,4 +193,21 @@
     toggleButton.onclick = function () {
         el.classList.toggle("toggled");
     };
+
+
+  function showTime() {
+    var date = new Date(),
+        utc = new Date(Date.UTC(
+          date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          date.getHours(),
+          date.getMinutes(),
+          date.getSeconds()
+        ));
+
+    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
+  }
+
+  setInterval(showTime, 1000);
 </script>
