@@ -11,8 +11,7 @@
         <hr><br>
 
         @php
-            $days = json_decode($train_routes[0]->weekly_schedule);
-            print_r($days);
+            $days = json_decode($train_routes[0]->train_name);
         @endphp
 
 
@@ -22,7 +21,7 @@
             
             <div class="form-group">
                 <label for="train_name">Train Name</label>
-                <input type="text" name="train_name" id="" value="{{ $train_routes->train_name }}" class="form-control"><br>
+                <input type="text" name="train_name" id="" value="{{ $train_routes[0]->train_name }}" class="form-control"><br>
             </div>
             <div class="row">
                 <div class="col-lg-6">
