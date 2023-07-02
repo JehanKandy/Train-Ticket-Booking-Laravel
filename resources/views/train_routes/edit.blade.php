@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="form-group">
-                        <input type="submit" value="Update Train Route" class="btn btn-success">
+                        <input type="submit" value="Update Train Route" class="btn btn-success" style="width: 100%;">
                     </div>
                 </div>
             </div>
