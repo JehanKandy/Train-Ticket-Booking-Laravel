@@ -46,6 +46,74 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <label for="days"><b>Select Days</b></label> <br><br>
+                <div class="col-lg-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <label class="form-check-label" for="Monday">
+                          Monday
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <label class="form-check-label" for="Tuesday">
+                          Tuesday
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Wednesday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <label class="form-check-label" for="Wednesday">
+                          Wednesday
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Thursday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <label class="form-check-label" for="Thursday">
+                          Thursday
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Friday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <label class="form-check-label" for="Friday">
+                              Friday
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Saturday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <label class="form-check-label" for="Saturday">
+                             Saturday
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="col-lg-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Sunday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <label class="form-check-label" for="Sunday">
+                              Sunday
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+            </div><br><br>
 
         </form>
     </div>
