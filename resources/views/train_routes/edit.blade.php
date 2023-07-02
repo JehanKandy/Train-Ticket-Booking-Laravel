@@ -19,13 +19,13 @@
                 <input type="text" name="train_name" id="" value="{{ $train_routes->train_name }}" class="form-control"><br>
             </div>
             <div class="row">
-                <div class="col-lg6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_station">Start Station</label>
                         <input type="text" name="start_station" id="" value="{{ $train_routes->start_station }}" class="form-control">
                     </div>
                 </div>
-                <div class="col-lg6">
+                <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_time">Start Station</label>
                         <input type="time" name="start_time" id="" value="{{ $train_routes->start_time }}" class="form-control">
