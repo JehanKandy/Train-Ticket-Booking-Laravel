@@ -11,7 +11,7 @@
         <hr><br>
 
         @php
-            $days = json_decode($trainRoute[0]->train_name);
+            $days = json_decode($trainRoute[0]->weekly_schedule);
         @endphp
 
 
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]" id="flexCheckDefault" >
+                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Tuesday',$days)? 'checked':'' }}>
                         <label class="form-check-label" for="Tuesday">
                           Tuesday
                         </label>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Wednesday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Wednesday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Wednesday',$days)? 'checked':'' }}>
                         <label class="form-check-label" for="Wednesday">
                           Wednesday
                         </label>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Thursday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Thursday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Thursday',$days)? 'checked':'' }}>
                         <label class="form-check-label" for="Thursday">
                           Thursday
                         </label>
