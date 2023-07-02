@@ -20,6 +20,7 @@
                         <th>Add Date</th>
                         <th>Last Update</th>
                         <th>Action</th>
+                        <th>Live Status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -53,8 +54,10 @@
                                     {{ csrf_field() }}
                                     <button type="submit" class="btn btn-danger btn-sm" title="Delete train routes" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fas fa-calendar-times" aria-hidden="true"></i> Delete</button>
                                 </form>                            
-                            @endif
-                            
+                            @endif                            
+                        </td>
+                        <td>
+                            Gate Open
                         </td>
                     </tr> 
                     @endforeach
