@@ -96,7 +96,9 @@
     <div class="bg-white" id="sidebar-wrapper">
         <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom"><i class="fa-sharp fa-solid fas fa-train"></i> Booking</div>
         <div class="list-group list-group-flush my-3">
-            <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+            <a href="
+                    
+                    " class="list-group-item list-group-item-action bg-transparent second-text active"><i
                     class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
             <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-user-tie me-2"></i>Users</a>
@@ -104,6 +106,8 @@
                     class="fas fa-subway me-2"></i>Train Routes</a>
             <a href="{{url('/comments')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-comments me-2"></i>Comments</a>
+            <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+                    class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
 
             
         </div>
