@@ -62,6 +62,8 @@
 
                                 if($train->start_time < $time_now){
                                     echo "<h5>Train Departed</h5>";
+                                }else{
+                                    echo "<h5>Train Not Departed</h5>";
                                 }
                             @endphp
                             
