@@ -114,8 +114,15 @@
                     @endphp
                     {{url('/admin')}} 
                     @php
-                    }
-                    
+                    }elseif(auth()->user()->role == 2){
+                    @endphp
+                    {{url('/staff')}} 
+                    @php  
+                    }elseif(auth()->user()->role == 3){
+                    @endphp
+                    {{url('/client')}} 
+                    @php  
+                    }                    
                     @endphp
 
                     " class="list-group-item list-group-item-action bg-transparent second-text active"><i
