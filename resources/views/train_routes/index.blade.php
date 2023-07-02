@@ -59,6 +59,10 @@
                         <td>
                             @php
                                 $time_now = date_default_timezone_set("Asia/Colombo");
+
+                                if($train->start_time > $time_now){
+                                echo "<h5>Train </h5>"
+                                }
                             @endphp
                             
 
