@@ -38,6 +38,7 @@
                 {{ $train_routes->end_time }}
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-lg-6">
                 Weekly Schedule
@@ -47,7 +48,7 @@
                     $schedule = json_decode($train_routes->weekly_schedule);
                 @endphp
                 @foreach ($schedule as $days)
-                    {{ $days }}<br>
+                    {{ $days }}
                 @endforeach
             </div>
         </div>
