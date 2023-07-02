@@ -57,7 +57,7 @@
                             @endif                            
                         </td>
                         <td>
-                            Gate Open
+                            
                         </td>
                     </tr> 
                     @endforeach
