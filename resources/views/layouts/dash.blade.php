@@ -99,7 +99,13 @@
             <a href="
                     @php
                         if(auth()->user()->role == 1){
-                            
+                            header("Location:admin");
+                        }
+                        elseif (auth()->user()->role == 2) {
+                            header("Location:staff");
+                        }
+                        elseif (auth()->user()->role == 3) {
+                            header("Location:client");
                         }
                     @endphp
 
