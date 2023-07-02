@@ -41,8 +41,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
-                        <label for="start_time">Start Station</label>
-                        <input type="time" name="start_time" id="" value="{{ $train_routes->start_time }}" class="form-control"><br>
+                        <label for="end_time">Start Station</label>
+                        <input type="time" name="end_time" id="" value="{{ $train_routes->end_time }}" class="form-control"><br>
                     </div>
                 </div>
             </div>
