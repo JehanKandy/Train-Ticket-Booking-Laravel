@@ -84,15 +84,9 @@
     <div class="sec-content">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="comment-title">
-                        Users Comments
-                    </div>
-                </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-5">
+                <div class="col-lg-12">
                     <div class="news-title">
-                        NEWS
+                        Train Routes <br><br>
                     </div>
                     <div class="news-body">
                         @foreach ($train_routes as $train)
@@ -122,9 +116,9 @@
                                 </div>
                                 <div class="col-lg-1">
                                     {{ $train->end_time }}
-                                </div>
-                                
+                                </div>                                
                             </div>
+                            <hr>
                         @endforeach
                     </div>
                 </div>
