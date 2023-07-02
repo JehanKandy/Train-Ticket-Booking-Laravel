@@ -14,7 +14,9 @@
             @csrf
             @method("PATCH")
             
-            
+            <div class="form-group">
+                <label for="train_name">Train Name</label>
+            </div>
 
         </form>
     </div>
