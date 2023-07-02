@@ -44,7 +44,7 @@
             </div>
             <div class="col-lg-6">
                 @php
-                    $schedule = json_decode($train->weekly_schedule);
+                    $schedule = json_decode($train_routes->weekly_schedule);
                 @endphp
                 @foreach ($schedule as $days)
                     {{ $days }}<br>
