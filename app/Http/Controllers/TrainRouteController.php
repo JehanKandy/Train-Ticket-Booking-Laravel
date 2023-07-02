@@ -83,7 +83,8 @@ class TrainRouteController extends Controller
             'end_time' => 'required',
             'weekly_schedule' =>'required',
         ]);
-        dd($request->all());
+        // dd($request->all());
+        
     }
 
     /**
