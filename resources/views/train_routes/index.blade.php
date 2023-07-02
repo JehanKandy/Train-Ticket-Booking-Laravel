@@ -59,10 +59,9 @@
                         <td>
                             @php
                                 use Carbon\Carbon;
-
                                 $currentDateTime = Carbon::now();
                                 $currentTime = $currentDateTime->toTimeString();
-
+                                echo $currentTime
                             @endphp                             
 
                         </td>
