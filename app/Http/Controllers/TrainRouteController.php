@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\TrainRoutes;
 use Illuminate\Http\Request;
 
+
 class TrainRouteController extends Controller
 {
     /**

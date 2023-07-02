@@ -1,5 +1,7 @@
 @extends('layouts.dash')
-
+ @php
+     use  Carbon\Carbon;
+ @endphp
 @section('content')
     <div class="admin-card">
         @if (auth()->user()->role == 1)
@@ -57,16 +59,12 @@
                             @endif                            
                         </td>
                         <td>
-                            @php
-                                $time_now = date_default_timezone_set("Asia/Colombo");
 
-                                if($train->start_time > $time_now){
-                                    echo "<h5>Train Departed</h5>";
-                                }else{
-                                    echo "<h5>Train Not Departed</h5>";
-                                }
-                            @endphp
-                            
+                                @php
+                                    if($train->start_time > \Carbon\Carbon::now()){
+                                        echo "HI"
+                                    }   
+                                @endphp
 
                         </td>
                     </tr> 
