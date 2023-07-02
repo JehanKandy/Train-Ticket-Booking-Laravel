@@ -98,13 +98,13 @@
                         @foreach ($train_routes as $train)
                             <div class="row">
                                 <div class="col-lg-4">
-                                    Train Name
+                                    <b>Train Name</b>
                                 </div>
                                 <div class="col-lg-4">
-                                    Start Staion 
+                                    <b>Start Staion</b>
                                 </div>
                                 <div class="col-lg-4">
-                                    End Staion 
+                                    <b>End Staion</b>
                                 </div>
                             </div>
                         @endforeach
