@@ -119,7 +119,8 @@
                     class="fas fa-comments me-2"></i>Comments</a>
             <a href="" class="list-group-item list-group-item-action bg-transparent second-text active"><i
                     class="fas fa-tachometer-alt me-2"></i>
-                    <span id="time"></span>
+                    {{-- <span id="time"></span> --}}
+
                     </a>
 
             
@@ -195,19 +196,5 @@
     };
 
 
-  function showTime() {
-    var date = new Date(),
-        utc = new Date(Date.UTC(
-          date.getFullYear(),
-          date.getMonth(),
-          date.getDate(),
-          date.getHours(),
-          date.getMinutes(),
-          date.getSeconds()
-        ));
 
-    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
-  }
-
-  setInterval(showTime, 1000);
 </script>
