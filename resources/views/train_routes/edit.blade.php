@@ -27,8 +27,8 @@
                 </div>
                 <div class="col-lg6">
                     <div class="form-group">
-                        <label for="start_station">Start Station</label>
-                        <input type="text" name="start_station" id="" value="{{ $train_routes->start_station }}" class="form-control">
+                        <label for="start_time">Start Station</label>
+                        <input type="time" name="start_time" id="" value="{{ $train_routes->start_time }}" class="form-control">
                     </div>
                 </div>
             </div>
