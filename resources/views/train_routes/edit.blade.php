@@ -8,5 +8,6 @@
     <div class="admin-card">
         <a href="{{ url('train_routes') }}"><button class="btn btn-primary">Back</button></a><br><br>
         <h2>Update Train Route</h2>
+        <hr>
     </div>
 @endsection
