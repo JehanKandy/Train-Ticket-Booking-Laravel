@@ -15,7 +15,7 @@
         @endphp
 
 
-        <form action="{{ url('train_routes/' .$trainRoute->id) }}" method="POST">
+        <form action="{{ url('train_routes/' .  $trainRoute[0]->id) }}" method="POST">
             @csrf
             @method("PATCH")
             
@@ -27,13 +27,13 @@
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_station">Start Station</label>
-                        <input type="text" name="start_station" id="" value="{{ $trainRoute->start_station }}" class="form-control">
+                        <input type="text" name="start_station" id="" value="{{ $trainRoute[0]->start_station }}" class="form-control">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="start_time">Departure Time</label>
-                        <input type="time" name="start_time" id="" value="{{ $trainRoute->start_time }}" class="form-control"><br>
+                        <input type="time" name="start_time" id="" value="{{ $trainRoute[0]->start_time }}" class="form-control"><br>
                     </div>
                 </div>
             </div>
@@ -41,13 +41,13 @@
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="end_station">End Station</label>
-                        <input type="text" name="end_station" id="" value="{{ $trainRoute->end_station }}" class="form-control">
+                        <input type="text" name="end_station" id="" value="{{ $trainRoute[0]->end_station }}" class="form-control">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="end_time">Arrival Time</label>
-                        <input type="time" name="end_time" id="" value="{{ $trainRoute->end_time }}" class="form-control"><br>
+                        <input type="time" name="end_time" id="" value="{{ $trainRoute[0]->end_time }}" class="form-control"><br>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                 <label for="days"><b>Select Days</b></label> <br><br>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" value="{{ $train_routes->weekly_schedule }}" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault">
                         <label class="form-check-label" for="Monday">
                           Monday
                         </label>
