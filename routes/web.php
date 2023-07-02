@@ -18,11 +18,11 @@ use App\Http\Controllers\TrainRouteController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-// Route::get('/', [TrainRouteController::class, 'index']);
+Route::get('/', [TrainRouteController::class, 'viewRoutes']);
 
 Auth::routes([
     'verify' => true

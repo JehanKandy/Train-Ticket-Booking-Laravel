@@ -111,6 +111,6 @@ class TrainRouteController extends Controller
 
     public function viewRoutes(){
         $trainRoute = TrainRoutes::all();
-        return view('/')->with('train_routes', $trainRoute);
+        return view('/welcome')->with('train_routes', $trainRoute);
     }
 }
