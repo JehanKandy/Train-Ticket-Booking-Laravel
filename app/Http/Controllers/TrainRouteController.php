@@ -108,4 +108,8 @@ class TrainRouteController extends Controller
         $trainRoute->delete();
         return back();
     }
+
+    public function viewRoutes(){
+        
+    }
 }
