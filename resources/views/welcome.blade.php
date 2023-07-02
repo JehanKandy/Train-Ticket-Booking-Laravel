@@ -117,6 +117,13 @@
                                 <div class="col-lg-1">
                                     {{ $train->start_time }}
                                 </div>
+                                <div class="col-lg-3">
+                                    {{ $train->end_station }}
+                                </div>
+                                <div class="col-lg-1">
+                                    {{ $train->end_time }}
+                                </div>
+                                
                             </div>
                         @endforeach
                     </div>
