@@ -93,7 +93,7 @@ class TrainRouteController extends Controller
         $trainRoute->end_time = $request->end_time;
         $trainRoute->weekly_schedule = json_encode($request->weekly_schedule);
 
-        $trainRoute->save();
+        $trainRoute->update();
 
         return redirect('/train_routes');
         
