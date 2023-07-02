@@ -110,6 +110,7 @@ class TrainRouteController extends Controller
     }
 
     public function viewRoutes(){
-        
+        $trainRoute = TrainRoutes::all();
+        return view('/')->with('train_routes', $trainRoute);
     }
 }
