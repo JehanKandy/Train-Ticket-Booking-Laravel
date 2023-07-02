@@ -90,7 +90,7 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Friday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Friday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Friday',$days)? 'checked':'' }}>
                             <label class="form-check-label" for="Friday">
                               Friday
                             </label>
@@ -100,7 +100,7 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Saturday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Saturday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Saturday',$days)? 'checked':'' }}>
                             <label class="form-check-label" for="Saturday">
                              Saturday
                             </label>
@@ -110,7 +110,7 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Sunday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Sunday" name="weekly_schedule[]" id="flexCheckDefault" {{ in_array('Sunday',$days)? 'checked':'' }}>
                             <label class="form-check-label" for="Sunday">
                               Sunday
                             </label>
