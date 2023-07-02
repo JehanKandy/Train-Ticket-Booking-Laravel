@@ -94,6 +94,21 @@
                     <div class="news-title">
                         NEWS
                     </div>
+                    <div class="news-body">
+                        @foreach ($train_routes as $train)
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    Train Name
+                                </div>
+                                <div class="col-lg-4">
+                                    Start Staion 
+                                </div>
+                                <div class="col-lg-4">
+                                    End Staion 
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
                 </div>
             </div>
         </div>
