@@ -120,7 +120,8 @@
                             </div>
                             <hr>
                         @endforeach
-                        <a href="{{ url('/login') }}"><button class="btn btn-primary">View More Routes</button></a>
+                        <br><br>
+                        <center><a href="{{ url('/login') }}"><button class="btn btn-primary">View More Routes</button></a></center>
                     </div>
                 </div>
             </div>
