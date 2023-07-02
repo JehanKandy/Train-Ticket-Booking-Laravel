@@ -66,7 +66,7 @@ class TrainRouteController extends Controller
      */
     public function edit(string $id)
     {
-        $trainRoute = TrainRoutes::where('id', $id)->get();
+        $trainRoute = TrainRoutes::where('id', $id)->get();        
         return view('train_routes.edit', compact('trainRoute'));
     }
 
