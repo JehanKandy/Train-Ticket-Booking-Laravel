@@ -16,7 +16,7 @@
             
             <div class="form-group">
                 <label for="train_name">Train Name</label>
-                <input type="text" name="train_name" id="" value="{{ $train_routes->train->name }}" class="form-control">
+                <input type="text" name="train_name" id="" value="{{ $train_routes->train_name }}" class="form-control">
             </div>
 
         </form>
