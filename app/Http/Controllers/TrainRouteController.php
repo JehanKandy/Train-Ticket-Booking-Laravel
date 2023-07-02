@@ -104,6 +104,8 @@ class TrainRouteController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $trainRoute = TrainRoutes::find($id);
+        $trainRoute->delete();
+        return back();
     }
 }
