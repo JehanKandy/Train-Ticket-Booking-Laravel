@@ -107,6 +107,17 @@
                                     <b>End Staion</b>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    {{ $train->train_name }}
+                                </div>
+                                <div class="col-lg-3">
+                                    {{ $train->start_station }}
+                                </div>
+                                <div class="col-lg-1">
+                                    {{ $train->start_time }}
+                                </div>
+                            </div>
                         @endforeach
                     </div>
                 </div>
