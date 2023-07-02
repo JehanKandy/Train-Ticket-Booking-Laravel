@@ -43,7 +43,7 @@
         <hr>
         <div class="row">
             <div class="col-lg-6">
-                Weekly Schedule
+                <b>Weekly Schedule</b>
             </div>
             <div class="col-lg-6">
                 @php
