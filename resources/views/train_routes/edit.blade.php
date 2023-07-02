@@ -8,6 +8,14 @@
     <div class="admin-card">
         <a href="{{ url('train_routes') }}"><button class="btn btn-primary">Back</button></a><br><br>
         <h2>Update Train Route</h2>
-        <hr>
+        <hr><br>
+
+        <form action="{{ url('train_routes/' .$comments->id) }}" method="POST">
+            @csrf
+            @method("PATCH")
+            
+            
+
+        </form>
     </div>
 @endsection
