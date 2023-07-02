@@ -84,6 +84,18 @@ class TrainRouteController extends Controller
             'weekly_schedule' =>'required',
         ]);
         // dd($request->all());
+
+        $trainRoute = TrainRoutes::find($request->id);
+        $trainRoute->train_name = $request->train_name;
+        $trainRoute->start_station = $request->start_station;
+        $trainRoute->start_time = $request->start_time;
+        $trainRoute->end_station = $request->end_station;
+        $trainRoute->end_time = $request->end_time;
+        $trainRoute->weekly_schedule = json_encode($request->weekly_schedule);
+
+        $trainRoute->save();
+
+        return redirect('/train_routes');
         
     }
 
