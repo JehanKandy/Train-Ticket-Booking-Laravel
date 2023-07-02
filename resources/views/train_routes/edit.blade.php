@@ -55,7 +55,7 @@
                 <label for="days"><b>Select Days</b></label> <br><br>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault" @if($trainRoute->contains('Monday')) checked @endif>
                         <label class="form-check-label" for="Monday">
                           Monday
                         </label>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]" @if($trainRoute->contains('Monday')) checked @endif id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]" id="flexCheckDefault" >
                         <label class="form-check-label" for="Tuesday">
                           Tuesday
                         </label>
