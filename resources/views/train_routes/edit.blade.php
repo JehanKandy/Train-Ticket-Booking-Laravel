@@ -10,7 +10,7 @@
         <h2>Update Train Route</h2>
         <hr><br>
 
-        <form action="{{ url('train_routes/' .$comments->id) }}" method="POST">
+        <form action="{{ url('train_routes/' .$train_routes->id) }}" method="POST">
             @csrf
             @method("PATCH")
             
