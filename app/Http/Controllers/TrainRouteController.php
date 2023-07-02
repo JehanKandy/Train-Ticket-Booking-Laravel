@@ -76,7 +76,7 @@ class TrainRouteController extends Controller
     public function update(Request $request, string $id)
     {
         $request->validate([
-            'train_name' => 'required|unique:train_routes,train_name|max:255',
+            'train_name' => 'required|max:255',
             'start_station' => 'required',
             'start_time' => 'required',
             'end_station' => 'required',
