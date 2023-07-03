@@ -68,7 +68,7 @@
                                     }elseif($train->start_time < \Carbon\Carbon::now()){
                                         echo "<h4 class='badge bg-success'>Train Not Departed</h4>";
                                     }elseif (\Carbon\Carbon::now() < $before_time) {
-                                        echo "<h4 class='badge bg-success'>1 Hour</h4>";
+                                        echo $before_time;
                                     }
                                 @endphp
 
