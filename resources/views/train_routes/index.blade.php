@@ -67,8 +67,8 @@
                                         echo "<h4 class='badge bg-danger'>Train Departed</h4>";
                                     }elseif($train->start_time < \Carbon\Carbon::now()){
                                         echo "<h4 class='badge bg-success'>Train Not Departed</h4>";
-                                    }elseif ($train->start_time ) {
-                                        # code...
+                                    }elseif () {
+                                        
                                     }
                                 @endphp
 
