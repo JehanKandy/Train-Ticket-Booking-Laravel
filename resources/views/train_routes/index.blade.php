@@ -65,10 +65,10 @@
 
                                     if($train->start_time < \Carbon\Carbon::now()){
                                         echo "<h4 class='badge bg-danger'>Train Departed</h4>";
-                                    }elseif($train->start_time < \Carbon\Carbon::now()){
+                                        echo \Carbon\Carbon::now();
+                                    }elseif($train->start_time > \Carbon\Carbon::now()){
                                         echo "<h4 class='badge bg-success'>Train Not Departed</h4>";
-                                    }elseif (\Carbon\Carbon::now() < $before_time) {
-                                        echo $before_time;
+                                        echo \Carbon\Carbon::now();
                                     }
                                 @endphp
 
