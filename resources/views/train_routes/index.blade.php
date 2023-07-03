@@ -61,14 +61,12 @@
                         <td>
 
                                 @php
-                                    $before_time = date('H:i:s', strtotime($train->start_time. ' -1 hours'));
+                                    // $before_time = date('H:i:s', strtotime($train->start_time. ' -1 hours'));
 
-                                    if($train->start_time < \Carbon\Carbon::now()){
+                                    if($train->start_time > date('H:i:s', strtotime($train->start_time. ' -1 hours'))){
                                         echo "<h4 class='badge bg-danger'>Train Departed</h4>";
-                                        echo \Carbon\Carbon::now();
-                                    }elseif($train->start_time > \Carbon\Carbon::now()){
+                                    }else{
                                         echo "<h4 class='badge bg-success'>Train Not Departed</h4>";
-                                        echo \Carbon\Carbon::now();
                                     }
                                 @endphp
 
